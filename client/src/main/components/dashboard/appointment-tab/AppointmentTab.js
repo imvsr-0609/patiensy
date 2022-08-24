@@ -12,7 +12,7 @@ const AppointmentTab = () => {
 		setActiveTab(val);
 	};
 	return (
-		<div className="flex flex-col lg:col-span-4  shadow-custom max-w-5xl border-2 border-white bg-white rounded-lg min-h-40 p-2 md:p-4 lg:px-6">
+		<div className="flex flex-col lg:col-span-4  shadow-custom  border-2 border-white bg-white rounded-lg min-h-40 p-2 md:p-4 lg:px-6">
 			<ul className="bg-custom flex w-full bg-gray-200 py-3 text-gray-400 justify-between items-center rounded-md cursor-pointer relative text-xs ">
 				<button
 					className={`text-center text-xs md:text-sm uppercase z-10 ${

@@ -6,7 +6,7 @@ const Select = ({ optionArr, label }) => {
 			<p className="mb-2 font-semibold Number-xs ">{label}</p>
 
 			<select
-				className="p-3 py-2 border border-gray-300 rounded-lg  outline-none"
+				className="p-3  border border-gray-300 rounded-lg  outline-none"
 				// placeholder={placeholder}
 			>
 				{optionArr.map((option) => (
