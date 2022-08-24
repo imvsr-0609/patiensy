@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Login from './Login';
 import Register from './Register';
 import logo from '../../assets/img/logo.png';
+import UserDataForm from './user-data/UserDataForm';
 
 const AuthComponent = () => {
 	const [tab, setTab] = useState(0);

@@ -15,7 +15,7 @@ const HealthCard = () => {
 				</p>
 			</div>
 			<div className="flex flex-col gap-2 rounded-xl bg- font-semibold bg-yellow-50 shadow-custom p-4">
-				<h1 className="text-xl text-yellow-600">36.6 C </h1>
+				<h1 className="text-xl text-yellow-600">36.6 °C </h1>
 
 				<h2 className="font-bold text-sm">Temperature</h2>
 

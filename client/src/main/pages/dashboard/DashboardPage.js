@@ -12,9 +12,9 @@ const DashboardPage = () => {
 	return (
 		<>
 			{/* <Sidebar /> */}
-			<div className="bg-custom  ">
+			<div className="bg-custom w-full min-h-screen  ">
 				<Header username={username} />
-				<div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-6 p-2 md:p-4 lg:p-6 gap-2 md:gap-4 lg:gap-6">
+				<div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-6 p-2 md:p-4 lg:p-6 gap-4 md:gap-6">
 					<UserDetails username={username} />
 					<HealthCard />
 					<AppointmentTab />

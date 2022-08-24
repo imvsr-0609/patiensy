@@ -10,6 +10,7 @@ const Password = ({ label, placeholder }) => {
 				placeholder={placeholder}
 				type="password"
 				name="password"
+				style={{ width: '100%' }}
 			/>
 		</label>
 	);

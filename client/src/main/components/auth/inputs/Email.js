@@ -10,6 +10,7 @@ const Email = () => {
 				placeholder="Enter your email"
 				type="email"
 				name="email"
+				style={{ width: '100%' }}
 			/>
 		</label>
 	);
