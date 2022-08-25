@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ClickWrapper = () => {
-	return <div>ClickWrapper</div>;
+	return <div></div>;
 };
 
 export default ClickWrapper;
