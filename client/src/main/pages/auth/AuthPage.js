@@ -4,7 +4,7 @@ import authbg from '../../assets/img/auth-bg.png';
 
 const AuthPage = () => {
 	return (
-		<div className="w-full h-screen flex">
+		<div className="w-full min-h-screen flex">
 			<div className="flex-1 w-full md:max-w-2xl flex items-center justify-center p-4 sm:p-6 lg:p-10">
 				<AuthComponent />
 			</div>

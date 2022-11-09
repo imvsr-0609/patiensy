@@ -3,17 +3,19 @@ import { HiOutlineUser } from 'react-icons/hi';
 import logo from '../../../assets/img/logo.png';
 import { MdLogout } from 'react-icons/md';
 import { FiEdit } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
+import { HOME_PAGE } from '../../../../navigation/routes';
 
 const Header = ({ username }) => {
 	return (
 		<div className="bg-custom flex justify-between p-4 px-6 md:px-10 border-b-2">
-			<div className="flex flex-col">
+			<Link to={HOME_PAGE} className="flex flex-col">
 				<img
 					className="w-20 md:w-40 h-full object-contain"
 					src={logo}
 					alt="Patiensy"
 				/>
-			</div>
+			</Link>
 			<div className="flex justify-between items-center gap-2 md:gap-3">
 				<div className="flex justify-between items-center gap-2">
 					<div className="text-xl md:text-2xl text-blue-500">

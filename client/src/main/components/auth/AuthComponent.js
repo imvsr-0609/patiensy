@@ -8,13 +8,6 @@ const AuthComponent = () => {
 	const [tab, setTab] = useState(0);
 	return (
 		<div className="  px-4 md:px-2 lg:px-4 py-4  w-full h-full flex flex-col text-sm max-w-lg">
-			<div className="w-40 h-12 mb-4">
-				<img
-					className="h-full w-full object-contain"
-					src={logo}
-					alt="patiensy"
-				/>
-			</div>
 			<div className="flex w-full relative">
 				<button
 					onClick={() => setTab(0)}
@@ -35,9 +28,10 @@ const AuthComponent = () => {
 				></div>
 			</div>
 
-			<div className="flex-1 p-4 sm:p-6 lg:p-10">
+			<div className="flex-1 ">
 				{tab === 0 && <Login changeTab={() => setTab(1)} />}
 				{tab === 1 && <Register changeTab={() => setTab(0)} />}
+				{tab === 2 && <UserDataForm changeTab={() => setTab(0)} />}
 			</div>
 		</div>
 	);

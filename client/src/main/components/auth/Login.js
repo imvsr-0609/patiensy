@@ -10,7 +10,7 @@ const Login = ({ changeTab }) => {
 		<div className=" h-full  ">
 			<form
 				onSubmit={handleFormSubmit}
-				className="w-full h-full flex flex-col justify-between  text-xs "
+				className="w-full h-full flex flex-col   text-xs "
 			>
 				<div className="flex flex-col justify-between items-center">
 					<Email />

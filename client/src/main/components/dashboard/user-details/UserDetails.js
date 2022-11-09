@@ -1,6 +1,8 @@
 import { Avatar, TextField } from '@mui/material';
 import { Box } from '@mui/system';
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { APPOINTMENT_PAGE } from '../../../../navigation/routes';
 
 const UserDetails = ({ username }) => {
 	return (
@@ -27,9 +29,12 @@ const UserDetails = ({ username }) => {
 						<p>Upcoming</p>
 					</div>
 				</div>
-				<button className="rounded-md px-3 text-xs font-semibold w-full border-2 border-transparent  bg-blue-500 transition-all duration-300 ease-in-out text-white hover:bg-white hover:text-blue-500  hover:border-blue-400 mt-2 py-2 ">
+				<Link
+					to={APPOINTMENT_PAGE}
+					className="rounded-md text-center px-3 text-xs font-semibold w-full border-2 border-transparent  bg-blue-500 transition-all duration-300 ease-in-out text-white hover:bg-white hover:text-blue-500  hover:border-blue-400 mt-2 py-2 "
+				>
 					Book an Appointment
-				</button>
+				</Link>
 			</div>
 
 			<div className="grid grid-cols-3 gap-2 w-full shadow-custom max-w-5xl border-2 border-white bg-white rounded-lg min-h-40 p-2 md:p-4 lg:px-6">
